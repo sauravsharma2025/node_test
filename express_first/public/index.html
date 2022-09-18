@@ -5,26 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
-  <div class="input-form">Please fill Given Detailes
-    
-    <label for="rest-name">Resturant Name</label>
-    <input type="text" id="rest-name">
-    <label for="rest-name">Food Image</label>
-    <input type="file" id="rest-img">
-    <label for="rest-name">Resturant Description</label>
-    <input type="text" id="rest-desc">
-    <label for="rest-name">Resturant Offer</label>
-    <input type="text" id="rest-offer">
-    <label for="rest-name">Resturant Time</label>
-    <input type="text" id="rest-time">
-    <label for="rest-name">Resturant Rate</label>
-    <input type="text" id="rest-rate">
-    <label for="rest-name">Resturant Recieved order upto now</label>
-    <input type="text" id="'rest-order-places">
-    <button id="submit-btn">Submit</button>
- </div>
+    <div id="container">
+
+    </div>
 </body>
 </html>
+<script>
+
+    let main_container=document.getElementById('container').innerText;
+   
+      url='/userapi';
+      fetch(url).then((response)=>{
+         return response.text();
+      }).then((data)=>{
+         data_obj=JSON.parse(data);
+   
+   for(var i=0;i<data_obj.length;i++){
+    var html = ` 
+    <link rel='stylesheet' href='style.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <div class="wrapper">
+    <div class="img-container"> <a href="">
+        <img src="${data_obj[i].image}">
+        <div class="offer-and-time">
+        <div id='offer' class="img-bottom">${data_obj[i].offer}OFF up to 100 </div><div id="time">${data_obj[i].time}</div>
+        </div>
+       
+    </a>
+    <div class="food-cart-detail">
+        <a href="">
+            <div class="rest-rating">
+            <div id='rest' class="rest-detail">${data_obj[i].restname}
+            <div id="rate">${data_obj[i].rating}</div>
+            </div>
+        </div>
+            <div class="food-detail">
+              <p>${data_obj[i].item}</p> 
+              <p>${'$'+data_obj[i].rateforone} for two</p>      
+            </div>
+        </a>
+    </div>
+    <div class="cart-bottom">
+        <span id='icon'class="material-icons">
+            trending_up
+            </span>
+        <span>${data_obj[i].nooforder} orders placed from here recently</span>
+    </div>
+   </div>
+    </div>`;
+    let div = document.createElement('div');
+    var x=document.getElementById('container').appendChild(div);
+   div.innerHTML=html;
+   }   })
+   </script>

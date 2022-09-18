@@ -6,7 +6,7 @@
     "restname": "McDonalds",
     "rating": "4",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -16,7 +16,7 @@
     "offer": "50%",
     "rating": "4",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -26,7 +26,7 @@
     "restname": "McDonalds",
     "rating": "4",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -36,7 +36,7 @@
     "restname": "McDonalds",
     "rating": "4",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -46,7 +46,7 @@
     "restname": "McDonalds",
     "rating": "4",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -56,7 +56,7 @@
     "rating": "4",
     "restname": "McDonalds",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -66,7 +66,7 @@
     "rating": "4",
     "restname": "McDonalds",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -76,7 +76,7 @@
     "rating": "5",
     "restname": "McDonalds",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -86,7 +86,7 @@
     "restname": "McDonalds",
     "rating": "3",
     "item": "North Indian, Mughlai",
-    "rateforone": "50",
+    "rateforone": "$50",
     "nooforder": "234"
   },
   {
@@ -94,19 +94,18 @@
     "image": "WIN_20220829_15_58_41_Pro.jpg",
     "offer": "50%",
     "time": "34MIN",
-    "rateforone": "300",
+    "rateforone": "$300",
     "item": "NEPALI,bangali marathi",
     "nooforder": "6",
     "rating": "3"
   },
   {
-    "restname": "vyas daal bati",
-    "image": "1.png",
-    "item": "ratlam ka mshuur resturant",
-    "offer": "30%",
-    "rating": "5",
-    "time": "50",
-    "rateforone": "350",
-    "nooforder": "65"
+    "restname": "kkk",
+    "restimg": "1.png",
+    "restdesc": "50% OFF",
+    "restoffer": "oo",
+    "resttime": "lbb",
+    "restrate": "tt",
+    "restorderplaces": "265"
   }
 ]
