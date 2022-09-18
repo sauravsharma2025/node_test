@@ -1,0 +1,74 @@
+#container{
+   margin: 0px;
+   padding: 0px;
+   font-family: Okra, Helvetica, sans-serif;
+   display: flex;
+   gap:17px;
+   flex-wrap: wrap;
+
+}
+.wrapper a{
+    text-decoration: none;
+    color: black;
+    
+}
+.img-container{
+
+width: 20rem;
+
+position:relative;
+}
+.img-container img{
+    width: 320px;
+    height: 200px;;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.offer-and-time{
+    display: flex;
+    position:absolute;
+    top:172px;
+}
+#time{
+    margin-left:128px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color:#FFFFFFCC;
+}
+#offer{
+    color: white;
+    background-color:#256FEF ;
+    margin-left: 2px;
+}
+.rest-rating{
+    display: flex;
+
+}
+#rest{
+    display: flex;
+}
+#rate{
+    display: flex;
+    margin-left:210px;
+}
+.food-cart-detail{
+    display: flex;
+}
+.food-detail{
+    display: flex;
+    gap: 78px;
+    border-bottom: 1px solid lavender;
+}
+#icon{
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    font-size: 15px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}

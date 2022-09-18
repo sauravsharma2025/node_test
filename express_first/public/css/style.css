@@ -1,0 +1,12 @@
+body{
+    margin:0px;
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+.input-form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width: 300px;
+}
